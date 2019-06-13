@@ -1,0 +1,31 @@
+Package: MitoCrypt
+Title: N-terminal extensions and mitochondrial targeting signal prediction
+Version: 0.0.0.1
+Authors@R: person('Michał", "Świrski', email = 'michal.swirski@student.uw.edu.pl', role = c("aut","cre"))
+Description: MitoCrypt finds non-ATG derived N-terminal extensions and truncations and calculates their probability of mitochondrial import with three prediciton softwares: mitoprot, targetP and MtoFates. The package contains more useful tools, like gtf-to-bed and bed-to-gtf functions, plotting ribosome profiles etc.
+Depends: R (>= 3.5.2),
+	dplyr,
+	tibble,
+	refGenome,
+	parallel,
+	dplyr,
+	DAAG,
+	Biostrings,
+	BSgenome,
+	BSgenome.Scerevisiae.ensembl.release94
+imports:
+	dplyr,
+	tibble,
+	refGenome,
+	parallel,
+	dplyr,
+	DAAG
+biocViews:
+Imports:
+	Biostrings,
+	BSgenome
+Remotes: github::Miswi/BSgenome.Scerevisiae.ensembl.release94
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
