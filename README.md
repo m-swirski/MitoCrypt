@@ -1,3 +1,5 @@
+# Warning: Now Deprecated.
+For new software, visit RiboCrypt.org or github.com/m-swirski/RiboCrypt/
 # MitoCrypt
 N-terminal extensions detection and quantification
 
